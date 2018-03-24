@@ -42,15 +42,6 @@
       "src/**/*.{ts,tsx,jsx}",
       "!src/**/*.d.ts"
     ],
-    "globals": {
-      "ts-jest": {
-        "babelConfig": {
-          "presets": [
-            "babel-preset-power-assert"
-          ]
-        }
-      }
-    },
     "moduleFileExtensions": [
       "ts",
       "tsx",
@@ -67,7 +58,6 @@
     "@types/jest": "^22.2.2",
     "@types/node": "^9.6.0",
     "@types/power-assert": "^1.4.29",
-    "babel-preset-power-assert": "^2.0.0",
     "husky": "^0.14.3",
     "jest": "^22.4.3",
     "lint-staged": "^7.0.0",
