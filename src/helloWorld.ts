@@ -1,5 +1,1 @@
-export class HelloWorld {
-  public static hello() {
-    return "Hello, world.";
-  }
-}
+export const hello = () => "Hello, world.";
