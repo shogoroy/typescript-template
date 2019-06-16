@@ -1,11 +1,11 @@
-import * as assert from "power-assert";
-import { HelloWorld } from "../src/helloWorld";
+import { hello } from "~/helloWorld";
+
 describe("hello", () => {
   describe("正常系", () => {
     test("期待する文字列が得られる", () => {
-      const actual = HelloWorld.hello();
+      const actual = hello();
       const expected = "Hello, world.";
-      assert.strictEqual(actual, expected);
+      expect(actual).toBe(expected);
     });
   });
 });
