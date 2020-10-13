@@ -15,10 +15,14 @@
   "main": "./build/index.js",
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "lint": "tslint --project ./tsconfig.lint.json --fix",
-    "precommit": "lint-staged",
-    "prepush": "npm run test",
+    "lint": "eslint --fix",
     "test": "jest"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "npm run test"
+    }
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
