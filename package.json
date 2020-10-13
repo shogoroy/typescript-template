@@ -27,16 +27,13 @@
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
       "jest --bail --findRelatedTests",
-      "eslint --fix",
-      "git add"
+      "eslint --fix"
     ],
     "*.{json,md,yml,yaml}": [
-      "prettier --write",
-      "git add"
+      "prettier --write"
     ],
     "package.json": [
-      "sort-package-json",
-      "git add"
+      "sort-package-json"
     ]
   },
   "dependencies": {},
