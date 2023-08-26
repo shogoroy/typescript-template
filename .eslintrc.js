@@ -13,6 +13,7 @@ module.exports = {
     project: "./tsconfig.json"
   },
   "rules": {
-    "simple-import-sort/sort": "error"
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error"
   }
 };
