@@ -4,7 +4,6 @@ module.exports = {
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended",
     "prettier",
-    "prettier/@typescript-eslint"
   ],
   env: { jest: true },
   plugins: ["@typescript-eslint", "prettier", "simple-import-sort"],
