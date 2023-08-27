@@ -6,7 +6,7 @@ module.exports = {
     "prettier",
   ],
   env: { jest: true },
-  plugins: ["@typescript-eslint", "prettier", "simple-import-sort"],
+  plugins: ["@typescript-eslint", "prettier", "simple-import-sort","unused-imports"],
   parser: "@typescript-eslint/parser",
   parserOptions: {
     sourceType: "module",
@@ -14,6 +14,7 @@ module.exports = {
   },
   "rules": {
     "simple-import-sort/imports": "error",
-    "simple-import-sort/exports": "error"
+    "simple-import-sort/exports": "error",
+    "unused-imports/no-umused-imports":"error"
   }
 };
