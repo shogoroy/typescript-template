@@ -46,6 +46,6 @@
     "prettier": "^3.0.2",
     "sort-package-json": "^2.5.1",
     "typescript": "^5.2.2",
-    "vitest": "^0.34.3"
+    "vitest": "^3.0.0"
   }
 }
